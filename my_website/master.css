@@ -95,6 +95,15 @@ th{
     color: white;
 }
 .audioCenter {
-    margin: 10px auto; width: 320px;
+    margin: 10px auto; 
+    width: 320px;
 }
-
+footer{
+    padding: 1em;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    clear: left;
+    font-size: 35px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
