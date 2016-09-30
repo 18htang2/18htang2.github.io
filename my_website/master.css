@@ -1,9 +1,6 @@
 #portfoliobody{
-    background: url("images/skyrimback.jpg");
+    background: url("images/backgroundwood.jpg");
     cursor: url("images/ResidentSleeper.cur"), auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center, center;
 }
 #portfolioh1{
     text-align: center;
@@ -120,7 +117,7 @@ th{
     margin-left: 30px;
 }
 #indexbody {
-    background: #808080;
+    background: url("images/backgroundwood.jpg");
     cursor: url("images/VapeNation.cur"), auto;
 }
 html, body {
