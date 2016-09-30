@@ -158,3 +158,6 @@ footer{
     position: absolute;
     width: 95%;
 }
+#portfoliofooter {
+    cursor: url("images/ResidentSleeper.cur"), pointer;
+}
