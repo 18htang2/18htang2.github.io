@@ -1,13 +1,33 @@
 #portfoliobody{
-    background-color: #F5F5F5;
+    background: url("images/skyrimback.jpg");
+    cursor: url("images/ResidentSleeper.cur"), auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+#portfolioh1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+#portfolioimg {
+    display: block;
+    margin: 0 auto;
 }
 #aboutbody{
     background: url("images/backgroundwood.jpg");
     background-repeat: repeat-y;
+    cursor: url("images/KappaPride.cur"), auto;
 }
-#aboutimg {
+#aboutimg1 {
     display: block;
     margin: 0 auto;
+    cursor: url("images/BCWarrior.cur"), auto;
+}
+#aboutimg2 {
+    display:block;
+    margin: 0 auto;
+    cursor: url("images/TriHard.cur"), auto;
 }
 #abouth1{
     font-family: "Impact", sans-serif;
@@ -30,6 +50,7 @@
     text-align: center;
     color: #ff1493;
     font-family: "Copperplate Gothic Light", serif;
+    cursor: url("images/LDR.jpg"), auto;
 }
 #abouttable{
     border: 4px solid black;
@@ -56,29 +77,56 @@ th{
     padding: 14px 16px;
     text-decoration: none;
 }
-#menu .active{
+#menu .iactive{
     background-color: #008080;
+    cursor: url("images/HeyGuys.cur"), auto;
 }
-#menu li a:hover:not(.active) {
+#menu li a:hover:not(.iactive) {
+    background-color: #111;
+    cursor: url("images/HeyGuys.cur"), pointer;
+}
+#menu .aactive{
+    background-color: #008080;
+    cursor: url("images/HeyGuys.cur"), auto;
+}
+#menu li a:hover:not(.aactive) {
+    background-color: #111;
+}
+#menu .pactive{
+    background-color: #008080;
+    cursor: url("images/HeyGuys.cur"), auto;
+}
+#menu li a:hover:not(.pactive) {
     background-color: #111;
 }
 #hobbies{
     background: #D3D3D3;
     list-style-type: circle;
+    cursor: url("images/WutFace.cur"), pointer;
 }
-#songs {
+.songs {
     background: #D3D3D3;
+    cursor: url("images/mcat.cur"), auto;
+}
+#songlinks {
+    cursor: url("images/mcat.cur"), auto;
 }
 #hobbies li{
     font-size: 23px;
     margin-left: 30px;
 }
-#songs li{
+.songs li{
     font-size: 23px;
     margin-left: 30px;
 }
 #indexbody {
     background: #808080;
+    cursor: url("images/VapeNation.cur"), auto;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
     margin: 0;
 }
 #indexh1{
@@ -89,7 +137,8 @@ th{
 #indeximg{
     display: block;
     margin: 0 auto;
-}
+    padding: 0;
+    cursor: url("images/VapeNation.cur"), auto;}
 #indexp{
     font-size: 30px;
     color: white;
@@ -106,4 +155,6 @@ footer{
     clear: left;
     font-size: 35px;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    position: absolute;
+    width: 95%;
 }
