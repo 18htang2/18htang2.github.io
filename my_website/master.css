@@ -135,7 +135,8 @@ html, body {
     display: block;
     margin: 0 auto;
     padding: 0;
-    cursor: url("images/VapeNation.cur"), auto;}
+    cursor: url("images/VapeNation.cur"), auto;
+}
 #indexp{
     font-size: 30px;
     color: white;
@@ -157,4 +158,8 @@ footer{
 }
 #portfoliofooter {
     cursor: url("images/ResidentSleeper.cur"), pointer;
+}
+#reflection {
+    color: white;
+    font-size: 21px;
 }
